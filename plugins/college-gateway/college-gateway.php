@@ -17,3 +17,12 @@ define( 'COLLEGE_GATEWAY_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) )
 define( 'COLLEGE_GATEWAY_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) );
 
 require_once COLLEGE_GATEWAY_PATH . '/inc/helpers/autoloader.php';
+
+/**
+ * To load plugin manifest class.
+ *
+ * @return void
+ */
+function cleantech_features_plugin_loader() {
+	\College_Gateway\Inc\Plugin::get_instance();
+}
