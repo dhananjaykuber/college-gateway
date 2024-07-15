@@ -11,6 +11,7 @@ use College_Gateway\Inc\Traits\Singleton;
 use College_Gateway\Inc\Post_Types\Post_Type_Course;
 use College_Gateway\Inc\Post_Types\Post_Type_Event;
 use College_Gateway\Inc\Post_Types\Post_Type_Service;
+use College_Gateway\Inc\Post_Types\Post_Type_Teacher;
 
 /**
  * Class Post_Types
@@ -45,6 +46,7 @@ class Post_Types {
 			Post_Type_Course::SLUG  => Post_Type_Course::get_instance(),
 			Post_Type_Event::SLUG   => Post_Type_Event::get_instance(),
 			Post_Type_Service::SLUG => Post_Type_Service::get_instance(),
+			Post_Type_Teacher::SLUG => Post_Type_Teacher::get_instance(),
 		);
 	}
 
