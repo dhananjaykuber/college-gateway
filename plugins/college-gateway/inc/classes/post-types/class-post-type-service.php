@@ -35,7 +35,7 @@ class Post_Type_Service extends Base {
 		return array(
 			'name'               => _x( 'Service', 'post type general name', 'college-gateway' ),
 			'singular_name'      => _x( 'Service', 'post type singular name', 'college-gateway' ),
-			'menu_name'          => _x( 'Service', 'admin menu', 'college-gateway' ),
+			'menu_name'          => _x( 'Services', 'admin menu', 'college-gateway' ),
 			'name_admin_bar'     => _x( 'Service', 'add new on admin bar', 'college-gateway' ),
 			'add_new'            => _x( 'Add New', 'post', 'college-gateway' ),
 			'add_new_item'       => __( 'Add New Service', 'college-gateway' ),
