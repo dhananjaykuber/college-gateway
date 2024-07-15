@@ -2,7 +2,7 @@
 /**
  * Plugin Name: College Gateway
  * Description: All backend functionality will take place in this plugin. Like, registering post type, taxonomy, widget and meta box.
- * Plugin URI:  https://github.com/dhananjaykuber/college-gateway
+ * Plugin URI:  https://github.com/dhananjaykuber/college-gateway/tree/master/plugins/college-gateway
  * Author:      Dhananjay Kuber
  * Author URI:  https://github.com/dhananjaykuber/
  * License:     GPL2
