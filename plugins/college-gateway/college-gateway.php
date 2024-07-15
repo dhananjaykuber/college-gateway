@@ -26,3 +26,5 @@ require_once COLLEGE_GATEWAY_PATH . '/inc/helpers/autoloader.php';
 function cleantech_features_plugin_loader() {
 	\College_Gateway\Inc\Plugin::get_instance();
 }
+
+cleantech_features_plugin_loader();
