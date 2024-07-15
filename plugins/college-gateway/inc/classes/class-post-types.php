@@ -10,6 +10,7 @@ namespace College_Gateway\Inc;
 use College_Gateway\Inc\Traits\Singleton;
 use College_Gateway\Inc\Post_Types\Post_Type_Course;
 use College_Gateway\Inc\Post_Types\Post_Type_Event;
+use College_Gateway\Inc\Post_Types\Post_Type_Service;
 
 /**
  * Class Post_Types
@@ -41,10 +42,12 @@ class Post_Types {
 	 */
 	protected function register_post_types() {
 		self::$instances = array(
-			Post_Type_Course::SLUG => Post_Type_Course::get_instance(),
-			Post_Type_Event::SLUG  => Post_Type_Event::get_instance(),
+			Post_Type_Course::SLUG  => Post_Type_Course::get_instance(),
+			Post_Type_Event::SLUG   => Post_Type_Event::get_instance(),
+			Post_Type_Service::SLUG => Post_Type_Service::get_instance(),
 		);
 	}
+
 
 	/**
 	 * Get instance of all post types.
