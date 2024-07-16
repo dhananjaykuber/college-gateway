@@ -51,7 +51,7 @@ class Metabox_Event_Date extends Base {
 	 */
 	public function get_fields( $post_type = '' ) {
 		return array(
-			'event_date' => new \Fieldmanager_Datepicker(
+			'metabox_event_date' => new \Fieldmanager_Datepicker(
 				array(
 					'label'       => __( 'Event Date', 'college-gateway' ),
 					'description' => __( 'Select the date of the event', 'college-gateway' ),
