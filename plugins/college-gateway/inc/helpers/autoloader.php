@@ -53,6 +53,7 @@ function autoloader( $resource = '' ) { // phpcs:ignore
 				break;
 
 			case 'post-types':
+			case 'taxonomies':
 			case 'meta-boxes': // phpcs:ignore PSR2.ControlStructures.SwitchDeclaration.TerminatingComment
 				/**
 				 * If there is class name provided for specific directory then load that.
