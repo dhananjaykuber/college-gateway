@@ -24,6 +24,7 @@ class Plugin {
 
 		// Load plugin classes.
 		Post_Types::get_instance();
+		Taxonomies::get_instance();
 		Meta_Boxes::get_instance();
 	}
 
