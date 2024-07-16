@@ -14,7 +14,7 @@ namespace College_Gateway\Inc\Helpers;
  *
  * @return void
  */
-function autoloader( $resource = '' ) {
+function autoloader( $resource = '' ) { // phpcs:ignore
 
 	$resource_path  = false;
 	$namespace_root = 'College_Gateway\\';
@@ -53,6 +53,7 @@ function autoloader( $resource = '' ) {
 				break;
 
 			case 'post-types':
+			case 'meta-boxes': // phpcs:ignore PSR2.ControlStructures.SwitchDeclaration.TerminatingComment
 				/**
 				 * If there is class name provided for specific directory then load that.
 				 * otherwise find in inc/ directory.
